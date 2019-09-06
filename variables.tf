@@ -10,7 +10,7 @@ variable "to_port" {
 	default = 8070
 }
 
-variables "protocol" {
+variable "protocol" {
 	description = "transport level protocol"
 	type = string
 	default = "tcp"
